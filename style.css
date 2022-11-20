@@ -1,0 +1,188 @@
+/*website styles*/
+li {
+    list-style: none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Schoolbell', arial, serif;
+  background-color: #FBE7C6;
+}
+#content {
+  text-indent: 4em;
+}
+/*index.html styles*/
+#index-paper {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #888;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+#index-paper::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: rgba(255,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+#index-lines {
+    height: 100%;
+    background-image: repeating-linear-gradient(white 0px, white 40px, #dedede 41px);
+}
+#index-heading {
+    font-size: 50px;
+    position: absolute;
+    bottom: 11.1em;
+}
+#index-ul {
+    padding: 0;
+    position: absolute;
+    top: 90px;
+}
+#index-ul li {
+    line-height: 78px;
+    padding: 0;
+}
+#index-ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;  
+}
+/*all recipes styles*/
+#recipe-html {
+  height: 880px;
+}
+#recipe-body {
+  height: 100%;
+  font-size: 18px;
+}
+#recipe-paper {
+  width: 700px;
+  height: 650px;
+  margin: 6em auto;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #888;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#recipe-paper::before {
+  content: '';
+  width: 2px;
+  height: 771px;
+  background-color: rgba(255,0,0,0.6);
+  position: absolute;
+  top: 6em;
+  left: 36em;
+}
+#recipe-lines {
+  height: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 20px, #dedede 21px);
+}
+#recipe-heading {
+  font-size: 50px;
+  position: absolute;
+  top: 13%;
+}
+#recipe-description {
+  position: absolute;
+  top: 10em;
+}
+#recipe-description p {
+  margin-top: -1.2em;
+  position: relative;
+  top: 0.6em;
+}
+#recipe-ingredients {
+  position: absolute;
+  top: 16em;
+}
+#recipe-ingredients ul {
+  padding: 0;
+  width: 15em;
+}
+#recipe-ingredients li {
+  margin-top: -5px;
+  position: relative;
+  bottom: 0.35em;
+  text-indent: -1em;
+  margin-left: 5em;
+}
+/*eggplant-miso.html styles*/
+#recipe1-img {
+    height: 15em;
+    width: auto;
+    margin-top: 2.6em;
+    float: right;
+    margin-right: 2em;
+}
+#recipe1-steps {
+    position: absolute;
+    top: 30em;
+}
+#recipe1-steps ol {
+    padding: 0;
+}
+#recipe1-steps li {
+    margin-top: -4.5px;
+    position: relative;
+    bottom: 0.35em;
+}
+/*honey-miso-chicken.html styles*/
+#recipe2-img {
+      height: 12em;
+      width: auto;
+      margin-top: 7em;
+      float: right;
+      margin-right: 2em;
+}
+#recipe2-steps {
+      position: absolute;
+      top: 25em;
+      max-width: 32.5em;
+      text-indent: -1em;
+      margin-left: 5em;
+}
+#recipe2-steps ol {
+      padding: 0;
+}
+#recipe2-steps li {
+      margin-top: -4.5px;
+      position: relative;
+      bottom: 0.35em;
+}
+/*pear-salad.html styles*/
+#recipe3-img {
+      height: 15em;
+      width: auto;
+      margin-top: 2.3em;
+      float: right;
+      margin-right: 2em;
+}
+#recipe3-steps {
+      position: absolute;
+      top: 26.7em;
+      max-width: 32.5em;
+      text-indent: -1em;
+      margin-left: 5em;
+}
+#recipe3-steps ol {
+      padding: 0;
+}
+#recipe3-steps li {
+      margin-top: -4.5px;
+      position: relative;
+      bottom: 0.2em;
+}
+    
+ 
