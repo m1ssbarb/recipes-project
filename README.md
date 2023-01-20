@@ -10,3 +10,12 @@ From this project, I have learned:
 * How to use Git and Github
 
 Project source: https://www.theodinproject.com/lessons/foundations-recipes
+
+Listed below are the URLs for the images used in this project:
+
+* Miso eggplant: https://cookmorphosis.com/japanese-miso-eggplant-an-authentic-but-contemporary-dish/
+
+* Honey miso chicken: https://cooking.nytimes.com/recipes/1017699-miso-chicken
+
+* Pear salad: https://www.the-girl-who-ate-everything.com/roquefort-pear-salad/
+
